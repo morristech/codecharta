@@ -16,6 +16,8 @@ import { ScalingActions } from "../../state/store/appSettings/scaling/scaling.ac
 import { IsLoadingMapActions, setIsLoadingMap } from "../../state/store/appSettings/isLoadingMap/isLoadingMap.actions"
 import { IsLoadingFileActions, setIsLoadingFile } from "../../state/store/appSettings/isLoadingFile/isLoadingFile.actions"
 import { isActionOfType } from "../../util/reduxHelper"
+import { FilesService, NewFilesImportedSubscriber } from "../../state/store/files/files.service"
+import { Files } from "../../model/files"
 
 const clone = require("rfdc")()
 
