@@ -1,6 +1,7 @@
 import { Vector3 } from "three"
 import { Action } from "redux"
 import { Files } from "./model/files"
+import { RenderData } from "./model/renderData"
 
 export interface NameDataPair {
 	fileName: string
@@ -123,6 +124,7 @@ export interface AppSettings {
 
 export interface TreeMapSettings {
 	mapSize: number
+	renderData: RenderData
 }
 
 export interface MapColors {
